@@ -1,0 +1,13 @@
+{
+  "name": "botforge-runner",
+  "version": "1.0.0",
+  "description": "BotForge Discord Bot Runner - connects to your BotForge database and runs your bot 24/7",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "discord.js": "^14.16.3",
+    "@supabase/supabase-js": "^2.101.1"
+  }
+}
